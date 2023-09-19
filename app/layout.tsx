@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./components/Navbar/Navbar";
 import ClientOnly from "./components/ClientOnly";
-import Modal from "./components/Modal/Modal";
+import RegisterModal from "./components/Modal/RegisterModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ClientOnly>
-          <Modal actionLabel="Submit" isOpen title="Hello World" />
+          <RegisterModal />
           <Navbar />
         </ClientOnly>
         {children}
