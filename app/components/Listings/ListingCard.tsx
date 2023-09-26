@@ -7,7 +7,7 @@ import useCounties from "@/app/hooks/useCountries";
 import { useCallback, useMemo } from "react";
 import { format } from "date-fns";
 import Image from "next/image";
-import HardButton from "../HardButton";
+import HeartButton from "../HeartButton";
 import Button from "../Button";
 
 interface ListingCardProps {
@@ -79,7 +79,7 @@ const ListingCard = ({
             fill
           />
           <div className="absolute top-3 right-3">
-            <HardButton listingId={data.id} currentUser={currentUser} />
+            <HeartButton listingId={data.id} currentUser={currentUser} />
           </div>
         </div>
         <div className="font-semibold text-lg">
