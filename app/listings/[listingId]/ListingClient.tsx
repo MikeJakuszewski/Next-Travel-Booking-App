@@ -73,6 +73,7 @@ const ListingClient = ({
         toast.success("Listing reserved!");
         setDateRange(initialDateRange);
         //Redirect to Trips
+        router.push("/trips");
         router.refresh();
       })
       .catch(() => {
