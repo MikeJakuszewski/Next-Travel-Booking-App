@@ -1,5 +1,7 @@
 # My Awesome Project
 
+Created an airbnb clone using modern technologies with 3rd party packages.
+
 **Link to project:** https://travelapp-taupe.vercel.app/
 
 ![alt tag](https://github.com/MikeJakuszewski/Next-Travel-Booking-App/blob/main/HomePage.png)
